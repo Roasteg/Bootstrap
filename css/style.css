@@ -1,0 +1,21 @@
+*{
+    border: 1px solid red;
+}
+:root{
+    --santa-red: #A31123;
+    --santa-red-alpha: rgba(163, 17,34,0.4);
+    --santa-green:#0A9F99;
+}
+.container-fluid{
+    padding:0;
+}
+.row{
+    margin:0;
+    padding:0;
+}
+#title{
+    background-color: var(--santa-red)
+}
+.navbar-toggler-icon:hover{
+    color:white;
+}
