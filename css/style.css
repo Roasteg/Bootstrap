@@ -1,6 +1,4 @@
-*{
-    border: 1px solid red;
-}
+
 :root{
     --santa-red: #A31123;
     --santa-red-alpha: rgba(163, 17,34,0.4);
@@ -14,8 +12,74 @@
     padding:0;
 }
 #title{
-    background-color: var(--santa-red)
+    background-color: var(--santa-red);
+    padding: 2rem 10rem;
+    color: white;
 }
 .navbar-toggler-icon:hover{
     color:white;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    width: auto;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.nav-link{
+    font-size: 1.2rem;      
+}
+.title-image{
+    width: 55%;
+    transform: rotate(10deg);
+}
+.download-btn{
+    margin:5%;
+}
+@media (min-width:956px){
+    #title{
+        padding:0;
+        text-align:center;
+    }
+}
+#features{
+    padding:7% 15%;
+    background-color: #ffffff;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-box h3{
+    font-family: 'Monsterrat';
+}
+#features i{
+    font-size: 3rem;
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+#features i:hover{
+    color: var(--santa-green)   ;
+}
+#testimonials{
+    background-color: var(--santa-red-alpha);
+    color:#ffffff;
+    text-align: center;
+}
+#testimonials h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:2rem;
+}
+footer{
+    text-align: center;
 }
